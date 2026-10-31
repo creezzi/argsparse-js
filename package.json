@@ -1,0 +1,17 @@
+{
+  "name": "argsparse-js",
+  "version": "0.1.0",
+  "description": "A small command-line argument parser with flags, aliases, defaults, --no- negation and repeated options.",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": "./src/index.js",
+  "files": ["src"],
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "author": "Adrian Delacruz",
+  "license": "MIT"
+}
